@@ -10,11 +10,9 @@
         android:id="@+id/btnPlay"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="130dp"
-        android:layout_marginLeft="130dp"
-        android:layout_marginTop="250dp"
-        android:layout_marginEnd="130dp"
-        android:layout_marginRight="130dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="100dp"
         android:onClick="onBtnPlayClick"
         android:text="@string/new_game"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,22 +23,26 @@
         android:id="@+id/btnNew"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="130dp"
-        android:layout_marginLeft="130dp"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="50dp"
-        android:layout_marginEnd="130dp"
-        android:layout_marginRight="130dp"
+        android:layout_marginEnd="100dp"
         android:onClick="onBtnNewClick"
         android:text="@string/new_board"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnPlay" />
 
-    <com.example.sudoku.NumberInputField
-        android:id="@+id/numberInputField"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btnInstructions"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="com.example.sudoku.NumberInputField"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="526dp" />
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="100dp"
+        android:onClick="onBtnInstructionsClick"
+        android:text="@string/user_manual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNew" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

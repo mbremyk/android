@@ -50,15 +50,19 @@ public class DatabaseManager extends SQLiteOpenHelper {
     }
 
     public void addBoard(int[][] numbers, Sudoku.Difficulty difficulty) {
-        SQLiteDatabase db = this.getWritableDatabase();
-        ContentValues values = new ContentValues();
         StringBuilder raw = new StringBuilder();
         for (int[] number : numbers) {
             for (int i : number) {
                 raw.append(i);
             }
         }
-        values.put(KEY_NUMBERS, raw.toString());
+        this.addBoard(raw.toString(), difficulty);
+    }
+
+    public void addBoard(String raw, Sudoku.Difficulty difficulty) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(KEY_NUMBERS, raw);
         values.put(KEY_DIFFICULTY, String.valueOf(difficulty));
 
         db.insert(TABLE_SUDOKU, null, values);
@@ -74,5 +78,11 @@ public class DatabaseManager extends SQLiteOpenHelper {
         }
         cursor.close();
         return boards;
+    }
+
+    public void insertSudokus(String[] raw, Sudoku.Difficulty[] difficulties) {
+        for(int i = 0; i < raw.length; i++) {
+            this.addBoard(raw[i], i < difficulties.length ? difficulties[i] : Sudoku.Difficulty.EASY);
+        }
     }
 }

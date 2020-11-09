@@ -7,10 +7,15 @@
     <string name="check">Check</string>
     <string name="solved">That\'s correct!</string>
     <string name="unsolved">Something\'s not right here…</string>
+    <string name="user_manual">Instructions</string>
 
     <string-array name="difficulties">
         <item>Easy</item>
         <item>Medium</item>
         <item>Hard</item>
     </string-array>
+
+    <string name="instructions">
+        The goal of sudoku is to fill each row, column, and 3x3 box with the numbers 1-9.\n\nIf you want to play sudoku, click \"New game\", select your preferred difficulty, and press \"Start\".\n\nTo fill an empty square, press the square and fill in the number you want.\n\nIf you are unsure of a number, or only want to decorate the board, select a square and then press your preferred colour from below the board.\n\nWhen you have filled in all the numbers, press \"check\" to verify your solution.\n\nTo return to the main menu, press the \'back\' button on your device twice\n\n\n\nTo create your own sudoku, press \"New board\".\n\nFill in the squares necessary for your sudoku in the same way as filling in numbers when solving.\n\nSelect the difficulty of your sudoku from the dropdown on the left, and press save.\n\n\n\nTo return to the main menu, press the \'back\' button on your device.
+    </string>
 </resources>

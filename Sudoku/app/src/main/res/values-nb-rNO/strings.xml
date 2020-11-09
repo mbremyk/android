@@ -7,10 +7,24 @@
     <string name="check">Sjekk</string>
     <string name="solved">Det er riktig!</string>
     <string name="unsolved">Her er det noe som ikke stemmer…</string>
+    <string name="user_manual">Instruksjoner</string>
 
     <string-array name="difficulties">
         <item>Lett</item>
         <item>Middels</item>
         <item>Vanskelig</item>
     </string-array>
+
+    <string name="instructions">
+        Målet med sudoku er å fylle hver rad, kolonne og 3x3 boks med tallene 1-9.\n\n
+        Hvis du vil spille sudoku, trykk \"Nytt spill\", velg vanskelighetsgrad, og trykk \"Start\".\n\n
+        For å fylle en tom rute, velg ruten og fyll inn tallet du vil ha.\n\n
+        Hvis du er usikker på et nummer, eller bare vil dekorere brettet, velg en rute og trykk på fargen du vil ha nedenfor brettet.\n\n
+        Når du har fylt inn alle tallene, trykk \"Sjekk\" for å sjekke løsningen din.\n\n
+        For å returnere til hovedmenyen, trykk på \'tilbake\'-knappen på din enhet to ganger.\n\n\n\n
+        For å lage din egen sudoku, trykk \"Nytt brett\".\n\n
+        Fyll in rutene som trengs til din sudoku på samme måte som du fyller inn tall for å løse sudoku.\n\n
+        Velg vanskelighetsgraden på din sudoku fra rullegardinlisten til venstre, og trykk \"Lagre\".\n\n\n\n
+        For å returnere til hovedmenyen, trykk på \'tilbake\'-knappen på din enhet.
+    </string>
 </resources>
