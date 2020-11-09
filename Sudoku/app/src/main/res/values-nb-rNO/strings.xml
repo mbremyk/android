@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="new_game">Nytt spill</string>
+    <string name="new_board">Nytt brett</string>
+    <string name="start">Start</string>
+    <string name="save">Lagre</string>
+    <string name="check">Sjekk</string>
+    <string name="solved">Det er riktig!</string>
+    <string name="unsolved">Her er det noe som ikke stemmer…</string>
+
+    <string-array name="difficulties">
+        <item>Lett</item>
+        <item>Middels</item>
+        <item>Vanskelig</item>
+    </string-array>
+</resources>

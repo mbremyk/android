@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">e7</string>
+    <string name="books">Books</string>
+    <string name="authors">Authors</string>
+    <string name="preferences">Preferences</string>
+    <string name="back">Back</string>
+    <string name="settings">Settings</string>
+
+    <string-array name="colours">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Purple</item>
+    </string-array>
+
+    <string-array name="colours_values">
+        <item>#882222</item>
+        <item>#222288</item>
+        <item>#228822</item>
+        <item>#aaaa22</item>
+        <item>#882288</item>
+    </string-array>
+</resources>

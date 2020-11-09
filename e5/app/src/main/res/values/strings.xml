@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">e5</string>
+    <string name="play">Play</string>
+    <string name="name">Name</string>
+    <string name="card_number">Card number</string>
+    <string name="gjett">Gjett</string>
+</resources>

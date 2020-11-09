@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">e3</string>
+    <string name="add">Add</string>
+    <string name="add_person">Add person</string>
+    <string name="birthday">Birthday</string>
+    <string name="name">Name</string>
+    <string name="save">Save</string>
+
+
+</resources>

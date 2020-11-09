@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">E2</string>
+    <string name="get_random_number">Get random number</string>
+    <string name="add">Adder</string>
+    <string name="multiply">Multipliser</string>
+    <string name="answer">Svar: </string>
+    <string name="bound">Øvre grense:</string>
+    <string name="correct">Riktig!</string>
+    <string name="wrong">Feil. Riktig svar er\u0020</string>
+</resources>

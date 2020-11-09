@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">e4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+
+    <string-array name="image_names">
+        <item>Hamster</item>
+        <item>QR</item>
+        <item>Round</item>
+        <item>Spillsyltetøy</item>
+    </string-array>
+
+    <string-array name="image_descriptions">
+        <item>Hamster. Deal with it</item>
+        <item>QR code. I don\u0027t remember what it does</item>
+        <item>Rounding sign. Now with rounded corners!</item>
+        <item>Game jam. Get it?</item>
+    </string-array>
+
+    <array name="images">
+        <item>@drawable/hamster</item>
+        <item>@drawable/qr</item>
+        <item>@drawable/round</item>
+        <item>@drawable/spillsyltetoy</item>
+    </array>
+</resources>
